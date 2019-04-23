@@ -13,8 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'ls .'
-                sh 'ls .'
+                sh 'echo "hello This is for test"'
                 sh 'mvn test'
 
             }
